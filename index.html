@@ -13,88 +13,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello!</title>
   </head>
-  <body class="bg-info d-flex justify-content-center align-items-center">
+  <body class="bg-info ">
     <div class="container py-4">
-      <div class="row row-cols-1 row-cols-sm-2 g-4">
-        <div class="card  bg-secondary col mt-2 justify-content-center h-100">
+      <div class="row gap-2 justify-content-center">
+        <div class="card  bg-secondary col-md-5 col-sm-12 p-3 d-flex justify-content-center align-items center">
           <img
             src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
-            class="card-img-top rounded-circle mt-3"
+            class="rounded-circle m-2"
             style="width: 80px; height: 80px"
             alt="Avatar"
           />
-          <h5 class="mt-3"><strong>John Doe</strong></h5>
-          <button type="button" class="btn btn-dark mt-3">Contact</button>
+          <h5 class="m-2"><strong>John Doe</strong></h5>
+          <button type="button" class="btn btn-dark m-2">Contact</button>
         </div>
-        <div class="card bg-secondary  mt-2 mx-auto h-100"style="width: 18rem;">
+        <div class="card col-md-5 col-sm-12 bg-secondary p-4">
           <strong>My Progress</strong>
-          <ul class="list-group list-group-light">
-            <li class="list-group-item bg-info px-3">
-              <div class="">
+          <ul class="list-group  mt-3 border-0">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class="rounded float-left "
+                  class="rounded"
                 />
-                <div class="">
-                  <p class="text-white fw-bold ">Django</p>
+                <div class="ms-3">
+                  <p class="text-white fw-bold mb-1">Django</p>
                   <div class="progress ">
            
                   <div 
-                      class="progress-bar progress-bar-striped bg-success px-3"
-                      role="progressbar"
-                      style="width: 30%"
-                      aria-valuenow="50"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <span class="badge bg-success">&rarr;</span>
-            </li>
-          </ul>
-          <ul class="list-group">
-            <li class="list-group-item bg-info">
-              <div class="">
-                <img
-                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
-                  alt=""
-                  style="width: 45px; height: 45px"
-                  class="rounded float-left"
-                />
-                <div class="">
-                  <p class="text-white fw-bold">Flutter</p>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped bg-danger px-3"
-                      role="progressbar"
-                      style="width: 30%"
-                      aria-valuenow="50"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <span class="badge bg-danger">&rarr;</span>
-            </li>
-          </ul>
-          <ul class="list-group">
-            <li class="list-group-item bg-info">
-              <div class="">
-                <img
-                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
-                  alt=""
-                  style="width: 45px; height: 45px"
-                  class="rounded float-left"
-                />
-                <div class="">
-                  <p class="text-white fw-bold">Html</p>
-                  <div class="progress">
-                    <div
-                      class="progress-bar progress-bar-striped bg-warning px-3"
+                      class="progress-bar progress-bar-striped bg-success"
                       role="progressbar"
                       style="width: 80%"
                       aria-valuenow="50"
@@ -104,20 +52,72 @@
                   </div>
                 </div>
               </div>
-              <span class="badge bg-warning">&rarr;</span>
+              <span class="badge bg-success rounded-pill">&rarr;</span>
             </li>
           </ul>
-          <ul class="list-group">
-            <li class="list-group-item bg-info">
-              <div class="">
+          <ul class="list-group mt-3 border-0">
+            <li class=" d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
                 <img
                   src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
                   alt=""
                   style="width: 45px; height: 45px"
-                  class="rounded float-left"
+                  class="rounded"
                 />
-                <div class="">
-                  <p class="text-white fw-bold">CSS</p>
+                <div class="ms-3">
+                  <p class="text-white fw-bold mb-1">Flutter</p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-danger"
+                      role="progressbar"
+                      style="width: 30%"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <span class="badge bg-danger rounded-pill">&rarr;</span>
+            </li>
+          </ul>
+          <ul class="list-group mt-3 border-0">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+                  alt=""
+                  style="width: 45px; height: 45px"
+                  class="rounded"
+                />
+                <div class="ms-3">
+                  <p class="text-white fw-bold mb-1">Html</p>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-warning"
+                      role="progressbar"
+                      style="width: 80%"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <span class="badge bg-warning rounded-pill">&rarr;</span>
+            </li>
+          </ul>
+          <ul class="list-group mt-3 border-0">
+            <li class="d-flex justify-content-between align-items-center">
+              <div class="d-flex align-items-center">
+                <img
+                  src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+                  alt=""
+                  style="width: 45px; height: 45px"
+                  class="rounded"
+                />
+                <div class="ms-3">
+                  <p class="text-white fw-bold mb-1">CSS</p>
                   <div class="progress">
                     <div
                       class="progress-bar progress-bar-striped bg-dark"
@@ -130,11 +130,11 @@
                   </div>
                 </div>
               </div>
-              <span class="badge bg-dark">&rarr;</span>
+              <span class="badge bg-dark rounded-pill">&rarr;</span>
             </li>
           </ul>
         </div>
-        <div class="card bg-secondary  mt-2 mx-auto h-100">
+        <div class="card bg-secondary col-md-5 col-sm-12 p-4">
           <strong>Reach me</strong>
           <form>
             <div class="mb-3 ">
@@ -151,9 +151,9 @@
             </div>
             <div class="mb-3">
               <label for="Subject" class="form-lable">Subject</label>
-              <textarea class="form-text" id="Subject" rows="3"></textarea>
+              <textarea class="form-control" id="Subject" rows="3"></textarea>
             </div>
-            <div class="mb-3 ">
+            <div class="mb-3">
               <label for="Country" class="form-label">Country</label>
               <select class="form-select">
                 <option selected>Open this select menu</option>
@@ -161,34 +161,34 @@
                 <option value="2">Other</option>
               </select>
             </div>
-            <div class="form-check">
-              <input type="checkbox" class="" id="exampleCheck1" />
-              <label class="" for="exampleCheck1"
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-label" for="exampleCheck1"
                 >This is a business email</label
               >
             </div>
             <button type="submit" class="btn btn-dark">Submit</button>
           </form>
         </div>
-        <div class="card bg-secondary  mt-2 mx-auto h-100">
+        <div class="card bg-secondary col-md-5 col-sm-12 p-4">
           <strong>My Blog</strong>
-          <div class="mt-3" style="height: auto; min-height: 450px">
-            <ol class="list-group list-group-flush list-group-numbered">
-              <li class="list-group-item">
+          <div class="d-flex flex-column justify-content-between" style="height:auto ; min-height:450px">
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Article 1</div>
                   Lorem
                 </div>
                 <span class="badge bg-dark rounded-pill">10 mins read</span>
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Article 2</div>
                   Lorem
                 </div>
                 <span class="badge bg-dark rounded-pill">15 mins read</span>
               </li>
-              <li class="list-group-item">
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
                 <div class="ms-2 me-auto">
                   <div class="fw-bold">Article 3</div>
                   Lorem
@@ -196,8 +196,8 @@
                 <span class="badge bg-dark rounded-pill">7 mins read</span>
               </li>
             </ol>
-            <ul class="pagination pagination-sm justify-content-center mt-2">
-              <li class="page-item ">
+            <ul class="pagination pagination-sm justify-content-center">
+              <li class="page-item disabled">
                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
                   >Previous</a
                 >
